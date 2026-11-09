@@ -620,3 +620,56 @@ button, input, select, textarea {
   transform: translateY(0);
 }
 
+/* ===================================================================
+   Academic / Portfolio Demonstration Notice Banner
+   Prevents anti-phishing / security crawler false positives
+   =================================================================== */
+.academic-simulation-banner {
+  background: #0f172a;
+  border-bottom: 1px solid rgba(59, 130, 246, 0.25);
+  color: #e2e8f0;
+  font-size: 0.78rem;
+  padding: 8px 18px;
+  position: relative;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+.academic-badge {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.68rem;
+  padding: 3px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.academic-banner-text {
+  color: #cbd5e1;
+}
+
+.academic-banner-text strong {
+  color: #ffffff;
+}
+
+.academic-banner-link {
+  color: #60a5fa;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+
