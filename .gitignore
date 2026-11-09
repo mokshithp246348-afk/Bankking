@@ -1,4 +1,19 @@
+# Local OpenJDK binaries (prevent 100MB+ push error on GitHub)
 .jdk/
-target/
-*.log
+**/.jdk/
 
+# Maven build outputs
+target/
+**/target/
+*.class
+
+# Log files
+*.log
+**/*.log
+
+# IDE & OS settings
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
